@@ -6,34 +6,6 @@ https://www.khanacademy.org/math/algebra2/x2ec2f6f830c9fb89:logs/x2ec2f6f830c9fb
 
 In addition I will include my prior work from my past assignment: https://github.com/COSC3020/log-o-proof-Powerfuljackell
 
-Let a, b and n be constants greater than or equal to 0
-Given the Change of Base Rule of Log: $\log_{a}n = \log_{c}n / \log_{c}a$
-Let a = 5 and c = 2 so that $\log_{5}n = \log_{2}n / \log_{2}5$
-The properites of big O nullifies constants, thus removing $1 / \log_{2}5$-->
-
-Commented out to return to later. This is because within the formal definition of $O$ $T(n)$ only needs to be less than or equal to $c \cdot f(n) \forall n \geq n_0$ to be included so when comparing c to that of $f(n) \forall n \geq n_0$ as $n \to \infty$ f(n) will always be larger than c
-Given $T(n) \in O(f(n)) \iff \exists c, n_0: T(n) \leq c \cdot f(n) \forall n \geq n_0$, 
-For all f(n): $\lim_{n \to \infty}c \cdot f(n) = f(n)$
-
-Plugging in $(\log_{2} n) and (\log_{5} n)$
-
-$\log_{2} n \in O(\log n) \iff \exists c, n_0: \log_{2} n \leq c \cdot \log n \forall n \geq n_0$
-
-$\log_{5} n \in O(\log n) \iff \exists c, n_0: \log_{5} n \leq c \cdot \log n \forall n \geq n_0$
-
-Since $log_{2} = \frac{1}{\log 2} \cdot \log n$ via the change of base
-
-$\log_{2} n \in O(\log n) \iff \exists c, n_0: \frac{1}{\log 2} \cdot \log n \leq c \cdot \log n \forall n \geq n_0$
-
-Since $log_{5} = \frac{1}{\log 5} \cdot \log n$ via the change of base
-
-$\log_{5} n \in O(\log n) \iff \exists c, n_0: \frac{1}{\log 5} \cdot \log n \leq c \cdot \log n \forall n \geq n_0$
-
-So long as there is a c that is greater than or equal too the constant values of $\frac{1}{\log 2} and \frac{1}{\log 5}$ respectfully, then they both can be disregarded as both resulting values will be less than or equal to that of c, meaning that via $O(\log n)$; $O(\log_{2} n)$ is the same as
-$O(\log_{5} n)$
-
-
-
 In the lectures, we said that logarithms with different bases don't affect the
 asymptotic complexity of an algorithm. Prove that $O(\log_{2} n)$ is the same as
 $O(\log_{5} n)$. Use the mathematical definition of $O$ -- do a formal proof,
