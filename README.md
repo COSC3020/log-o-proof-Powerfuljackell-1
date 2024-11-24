@@ -35,3 +35,5 @@ By comparing the difference in values between $\log_{2} n$ and $\log_{5} n$ in t
 we can find that when these values are plugged into $T(n) \in O(f(n)) \iff \exists c, n_0: T(n) \leq c \cdot f(n) \forall n \geq n_0$ for f(n) c becomes a scaling value between the two fractions:
 
 $c \cdot \frac{\log_{x} n}{\log_{2} 2} = c \cdot \frac{\log_{x} n}{\log_{x} 5}$
+
+in which case c can be utilized to modify either side by a constant value in order to achieve equivalance, making them the same.
