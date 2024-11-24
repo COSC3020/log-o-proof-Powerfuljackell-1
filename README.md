@@ -47,6 +47,6 @@ For example when replacing T(n) with the known function $\frac{\log_{x} n}{\log_
 
 and
 
-replacing f(n) with the known function \frac{\log_{x} n}{\log_{x} 2}
+replacing f(n) with the known function $\frac{\log_{x} n}{\log_{x} 2}$
 
 $T(n) \in O(f(n)) \iff \exists c, n_0: \frac{\log_{x} n}{\log_{x} 5} \leq c \cdot \frac{\log_{x} n}{\log_{x} 2} \forall n \geq n_0$
