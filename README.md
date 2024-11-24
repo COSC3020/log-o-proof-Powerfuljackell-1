@@ -31,3 +31,7 @@ Looking at the relationship between multiple inputs into both $\log_{2} n)$ and 
 
 By analyzing the change of base rule of log, I noticed that ultimately all forms of log can be converted into $\log_{a} n = \frac{\log_{x} n}{\log_{x} a}$ where x can be an arbitrary or chosen input. 
 From this, we can determine that the base of a log is constantly scaling and so therefore can be disregarded just as constants are disregarded in analysis, as they have very little impact on the asymptote.
+By comparing the difference in values between $\log_{2} n$ and $\log_{5} n$ in this case equivalent to $\log_{2} n = \frac{\log_{x} n}{\log_{x} 2}$ and $\log_{5} n = \frac{\log_{x} n}{\log_{x} 5}$ respectively, 
+we can find that when these values are plugged into $T(n) \in O(f(n)) \iff \exists c, n_0: T(n) \leq c \cdot f(n) \forall n \geq n_0$ for f(n) c becomes a scaling value between the two fractions when comparing them for example
+
+$c \cdot \frac{\log_{x} n}{\log_{x} 2} = c \cdot \frac{\log_{x} n}{\log_{x} 5}$
