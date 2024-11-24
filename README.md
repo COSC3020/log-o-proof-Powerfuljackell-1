@@ -40,4 +40,5 @@ or
 
 $c \cdot \frac{\log_{x} n}{\log_{x} 5} = \frac{\log_{x} n}{\log_{x} 2}$
 
-in which case c can be utilized to modify either side by a constant value in order to achieve equivalance (for the example $c = \frac{\log_{x} 2}{\log_{x} 5}$ and $c = \frac{\log_{x} 5}{\log_{x} 2}$ respectively), thus the difference in bases does not affect the asymptotic complexity as they can always be changed by some value of c.
+in which case c can be utilized to modify either side by a constant value in order to achieve equivalance (for the example $c = \frac{\log_{x} 2}{\log_{x} 5}$ and $c = \frac{\log_{x} 5}{\log_{x} 2}$ respectively)
+AND the base of a log can never be negative (therefore making the value of c to convert always greater than zero), thus the difference in bases does not affect the asymptotic complexity as they can always be changed by some value of c.
