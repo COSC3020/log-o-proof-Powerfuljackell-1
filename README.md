@@ -18,7 +18,7 @@ might help with the notation for mathematical expressions.
 
 $T(n) \in O(f(n)) \iff \exists c, n_0: T(n) \leq c \cdot f(n) \forall n \geq n_0$
 
-Looking at the relationship between multiple inputs into both $\log_{2} n)$ and $\log_{5} n$
+Looking at the relationship between multiple inputs into both $\log_{2} n$ and $\log_{5} n$
 | Input for n              | $\log_{2} n$  |    $\log_{5} n$      |
 |----------------------------|:-----------:|------------------------|
 | 1                  |      0      |     0    |
