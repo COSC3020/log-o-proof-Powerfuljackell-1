@@ -40,4 +40,4 @@ or
 
 $c \cdot \frac{\log_{x} n}{\log_{x} 5} = \frac{\log_{x} n}{\log_{x} 2}$
 
-in which case c can be utilized to modify either side by a constant value in order to achieve equivalance, making them the same.
+in which case c can be utilized to modify either side by a constant value in order to achieve equivalance, thus the difference in bases does not affect the asymptotic complexity as they can always be changed by some value of c.
