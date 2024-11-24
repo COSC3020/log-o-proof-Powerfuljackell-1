@@ -52,3 +52,11 @@ replacing f(n) with the known function $\frac{\log_{x} n}{\log_{x} 2}$
 $T(n) \in O(f(n)) \iff \exists c, n_0: \frac{\log_{x} n}{\log_{x} 5} \leq c \cdot \frac{\log_{x} n}{\log_{x} 2} \forall n \geq n_0$
 
 therefore $\frac{\log_{x} n}{\log_{x} 5} \in O(\frac{\log_{x} n}{\log_{x} 2})$
+
+and in swapping the log values T(n) becomes $\frac{\log_{x} n}{\log_{x} 2}$ and f(n) becomes $\frac{\log_{x} n}{\log_{x} 5}$
+
+$T(n) \in O(f(n)) \iff \exists c, n_0: \frac{\log_{x} n}{\log_{x} 2} \leq c \cdot \frac{\log_{x} n}{\log_{x} 5}  \forall n \geq n_0$
+
+therefore $\frac{\log_{x} n}{\log_{x} 2} \in O(\frac{\log_{x} n}{\log_{x} 5})$
+
+
