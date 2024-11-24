@@ -41,4 +41,12 @@ or
 $c \cdot \frac{\log_{x} n}{\log_{x} 5} = \frac{\log_{x} n}{\log_{x} 2}$
 
 in which case c can be utilized to modify either side by a constant value in order to achieve equivalance (for the example $c = \frac{\log_{x} 2}{\log_{x} 5}$ and $c = \frac{\log_{x} 5}{\log_{x} 2}$ respectively)
-AND the base of a log can never be negative (therefore making the value of c to convert always greater than zero), thus the difference in bases does not affect the asymptotic complexity as they can always be changed by some value of c.
+AND the base of a log can never be negative (therefore making the value of c to convert always greater than zero), thus the difference in bases does not affect the asymptotic complexity as they can always be changed by some value of c thus 
+meeting the criteria of $T(n) \in O(f(n)) \iff \exists c, n_0: T(n) \leq c \cdot f(n) \forall n \geq n_0$.
+For example when replacing T(n) with the known function $\frac{\log_{x} n}{\log_{x} 5}$
+
+and
+
+replacing f(n) with the known function \frac{\log_{x} n}{\log_{x} 2}
+
+$T(n) \in O(f(n)) \iff \exists c, n_0: \frac{\log_{x} n}{\log_{x} 5} \leq c \cdot \frac{\log_{x} n}{\log_{x} 2} \forall n \geq n_0$
